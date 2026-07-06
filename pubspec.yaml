@@ -1,0 +1,35 @@
+name: upeoretail_print
+description: "UpeoRetail Print — Android WebView wrapper for UpeoRetail with native Bluetooth Classic ESC/POS thermal printing (58mm/80mm, P58E)."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # WebView host for the existing Next.js UpeoRetail web app.
+  webview_flutter: ^4.7.0
+
+  # Bluetooth CLASSIC (SPP) ESC/POS printing — works with P58E and similar.
+  # NOT a BLE-only package, no RawBT, no third-party print app.
+  print_bluetooth_thermal: ^1.1.4
+
+  # ESC/POS byte generation (text styles, columns, QR, cut) for 58/80mm.
+  esc_pos_utils_plus: ^2.0.4
+
+  # Runtime permissions across Android 10–14+.
+  permission_handler: ^11.3.1
+
+  # Local storage for default printer + paper size + URL.
+  shared_preferences: ^2.2.3
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
