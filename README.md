@@ -341,4 +341,4 @@ Copyright © Upeo Soft Limited. See [`LICENSE`](LICENSE) if present, or contact
 <sub>**Topics:** bluetooth-thermal-printer · esc-pos · escpos · 58mm · 80mm ·
 receipt-printer · thermal-printer · flutter · android · webview · pos ·
 point-of-sale · p58e · bluetooth-classic · spp · print-from-web · no-rawbt · upeoretail
-· kenya. Built by [Upeo Soft](https://upeosoft.com) for the [UpeoRetail](https://upeoretail.com) platform.</sub>
+· kenya. Built by [Upeosoft Limited](https://upeosoft.com) for the [UpeoRetail](https://upeoretail.com) platform.</sub>
